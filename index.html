@@ -2,22 +2,28 @@
 layout: default
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <div class="pv6-l pv5 ph6-l ph5-m ph4">
+    <h2 class="f1x-l f2-m f3 mw7 center">Jack Hallahan is a designer living in London. He specialises in digital product design, UX and UI.</h2>
+    <p class="mw7 f4-l f5 center">Contact — <a class="near-black dim" href="mailto:{{ site.email }}" alt="Send me an email">email</a>, <a class="near-black dim" href="https://twitter.com/jahallahan" alt="View my Twitter profile">twitter</a>, <a class="near-black dim" href="https://dribbble.com/jahallahan" alt="View my Dribbble profile">dribbble</a><p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  </div>
+  <div class="post-list w100 bg-nearer-white pa4 pb5 cf">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+      {% for post in site.posts %}
+        <div class="fl w-50-l w-100 pa3">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="db link bg-white ph5-ns ph4 pv4-ns pv3">
+            <div class="mw5 ph4 pv4-ns pv3 center">
+              <img src="{{site.baseurl }}/assets/{{ post.thumbnail }}">
+            </div>
+            <h2 class="f3 fw8 near-black">
+              {{ post.title }}
+            </h2>
+            <p class="georgia near-black">{{ post.teaser }}</p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        </a>
+      </div>
 
-</div>
+      {% endfor %}
+
+  </div>

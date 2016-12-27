@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Vision6"
+date:   2016-12-21 14:00:45 +0000
+thumbnail: "vision6_icon.svg"
+teaser: "Get more from your email marketing"
+headerimage: "vision6_header.jpg"
+metainfo1title: "Platform"
+metainfo1text: "Responsive web app"
+metainfo2title: "Role"
+metainfo2text: "Product Designer"
+metainfo3title: "Website"
+metainfo3text: "<a class='silver link dim' href='http://www.vision6.com.au/' target='_blank' alt='Vision6 Website'>vision6.com.au</a>"
+---
+{: .ph4 .measure-wide .center .f4-ns .f5 .lh-extra}
+In 2015, I joined Vision6 as a product designer and led a project to completely redesign the platform’s user interface.
+
+{: .ph4 .measure-wide .center .f4-ns .f5 .lh-extra}
+Vision6 is a popular email marketing product for small and medium businesses in Australia. The new UI needed to support the company in its plans for international growth.
+
+{: .ph4 .pb6-l .pb4 .measure-wide .center .f4-ns .f5 .lh-extra}
+First I designed a new responsive layout and navigation, building interactive prototypes and testing key journeys with users. I designed a new look-and-feel for the interface, working with the engineers to put together a UI component library.
+
+{: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .bg-vision6-navyblue .lh-solid}
+![Image]({{ site.baseurl }}/assets/vision6_image1.png){: .center .db}
+
+{: .ph4 .pb4 .ma0}
+![Image]({{ site.baseurl }}/assets/vision6_header.jpg)

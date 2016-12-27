@@ -1,0 +1,45 @@
+//Header font just a bit too big
+
+@media screen and (min-width: 60em){
+  .f1x-l{
+    font-size: 2.5rem;
+  }
+}
+
+//We need a lighter-gray!
+
+.bg-nearer-white{
+  background-color: #F9F9F9;
+}
+
+//List of Posts Box shadow on hover
+
+.post-list a.link{
+  transition: box-shadow 0.3s ease;
+}
+
+.post-list a:hover{
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+//Get thumbnails to show in color on hover
+
+.post-list a img{
+  filter: grayscale(100%);
+  transition: filter 0.2s ease;
+}
+
+.post-list a:hover img{
+  filter:none;
+}
+
+//Extra line-height
+
+.lh-extra{
+  line-height: 1.8;
+}
+
+//Colors{
+.bg-vision6-navyblue{
+  background-color: #242D3C;
+}

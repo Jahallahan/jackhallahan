@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-12-21 14:00:45 +0000
+title:  "Geckoboard"
+date:   2016-12-20 14:00:45 +0000
 categories: jekyll update
+thumbnail: "http://vector.me/files/images/1/5/159332/open_envelope_clip_art.jpg"
+teaser: "KPI Dashboards for focusing teams"
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
