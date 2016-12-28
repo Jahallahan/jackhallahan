@@ -39,7 +39,16 @@
   line-height: 1.8;
 }
 
+//Videos need some basic styling
+video{
+  max-width:100%;
+}
+
 //Colors{
 .bg-vision6-navyblue{
   background-color: #242D3C;
+}
+
+.bg-vision6-blue{
+  background-color: #10A9CC;
 }
