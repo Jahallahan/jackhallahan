@@ -24,12 +24,19 @@ First I designed a new responsive layout and navigation, building interactive pr
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .bg-vision6-navyblue .lh-solid}
 ![Image]({{ site.baseurl }}/assets/vision6_image1.png){: .center .db}
 
-{: .ph4 .pb4 .ma0}
-![Image]({{ site.baseurl }}/assets/vision6_header.jpg)
-
-
-
+<p class="ph4-ns mb4-ns">
 <video autoplay loop muted>
   <source src="{{ site.baseurl }}/assets/vision6_video1.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
+</p>
+
+{: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .bg-vision6-navyblue .lh-solid}
+![Image]({{ site.baseurl }}/assets/vision6_image2.png){: .center .db}
+
+<p class="ph4-ns mb4-ns">
+<video autoplay loop muted>
+  <source src="{{ site.baseurl }}/assets/vision6_video2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</p>
