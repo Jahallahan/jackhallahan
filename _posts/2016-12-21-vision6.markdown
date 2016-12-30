@@ -2,9 +2,9 @@
 layout: post
 title:  "Vision6"
 date:   2016-12-21 14:00:45 +0000
-thumbnail: "vision6_icon.svg"
+thumbnail: "vision6_thumbnail.png"
 teaser: "Get more from your email marketing"
-headerimage: "vision6_header.jpg"
+headercolor: "#E64E24"
 metainfo1title: "Platform"
 metainfo1text: "Responsive web app"
 metainfo2title: "Role"

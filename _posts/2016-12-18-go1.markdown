@@ -2,9 +2,9 @@
 layout: post
 title:  "GO1"
 date:   2016-12-21 14:00:45 +0000
-thumbnail: "vision6_icon.svg"
+thumbnail: "go1_thumbnail.png"
 teaser: "Train your team quickly and easily"
-headerimage: "go1_header.jpg"
+headercolor: "#31B8DA"
 metainfo1title: "Platform"
 metainfo1text: "Responsive web app, native apps"
 metainfo2title: "Role"

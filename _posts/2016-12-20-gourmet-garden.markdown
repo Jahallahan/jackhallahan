@@ -2,7 +2,7 @@
 layout: post
 title:  "Gourmet Garden"
 date:   2016-12-21 14:00:45 +0000
-thumbnail: "vision6_icon.svg"
+thumbnail: "gourmetgarden_thumbnail.png"
 teaser: "Fresh herbs at your fingertips"
 headerimage: "gourmetgarden_header.jpg"
 metainfo1title: "Platform"

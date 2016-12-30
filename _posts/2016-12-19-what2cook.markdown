@@ -2,7 +2,7 @@
 layout: post
 title:  "What2Cook"
 date:   2016-12-21 14:00:45 +0000
-thumbnail: "vision6_icon.svg"
+thumbnail: "what2cook_thumbnail.png"
 teaser: "Midweek meal inspiration"
 headerimage: "what2cook_header.jpg"
 metainfo1title: "Platform"

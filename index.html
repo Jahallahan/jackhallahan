@@ -12,14 +12,16 @@ layout: default
 
       {% for post in site.posts %}
         <div class="fl w-50-l w-100 pa3">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="db link bg-white ph5-ns ph4 pv4-ns pv3">
-            <div class="mw5 ph4 pv4-ns pv3 center">
-              <img src="{{site.baseurl }}/assets/{{ post.thumbnail }}">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="db link bg-white">
+            <div class="bb b--near-white h6-ns h5 cover" style="background-image:url({{site.baseurl }}/assets/{{ post.thumbnail }})">
+
             </div>
+            <div class="ph5-ns ph4 pv4-ns pv3">
             <h2 class="f3 fw8 near-black">
               {{ post.title }}
             </h2>
-            <p class="georgia near-black">{{ post.teaser }}</p>
+            <p class="georgia near-black truncate-l">{{ post.teaser }}</p>
+            </div>
 
         </a>
       </div>
