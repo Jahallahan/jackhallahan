@@ -13,22 +13,33 @@ metainfo3title: "Website"
 metainfo3text: "<a class='silver link dim' href='http://www.what2cook.com.au/' target='_blank' alt='What2Cook Website'>what2cook.com.au</a>"
 ---
 {: .ph4 .measure-wide .center .f4-ns .f5 .lh-extra}
-In 2014, Gourmet Garden approached GO1 to design and build a new responsive website to support a brand refresh.
+After a successful pilot, the team at What2Cook approached GO1 to rebuild the site with more advanced functionality and a new look-and-feel.
 
 {: .ph4 .measure-wide .center .f4-ns .f5 .lh-extra}
-I was the lead web designer, working directly with the Gourmet Garden marketing team and their external branding agency to design the architecture for the site’s ambitious content strategy, and ensured the visual design felt like a natural extension of the new brand.
+The platform helps busy families plan, shop and cook healthy and easy meals. It provides tools for every stage – a weekly customisable meal plan, interactive shopping lists and easy-to-cook recipes.
 
 {: .ph4 .pb6-l .pb4 .measure-wide .center .f4-ns .f5 .lh-extra}
-The site is fully internationalised and allows the company to easily add new product lines and languages. Gourmet Garden was sold to McCormick for $150 million in 2016.
+I was the lead designer working on this project. I approached the design mobile-first, as the experience had to transition seamlessly between a family's devices, especially mobiles and tablets.
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid}
 ![Image]({{ site.baseurl }}/assets/what2cook_image1.png){: .center .db}
 
-{: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid}
+{: .mh4-ns .mb4-ns .mt0 .pt5-l pb4-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid}
 ![Image]({{ site.baseurl }}/assets/what2cook_image2.png){: .center .db}
 
-{: .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid .mw6 .center }
-![Image]({{ site.baseurl }}/assets/what2cook_image3.png){: .center .db }
+{: .ph4 .f5-l .f6 .mb4 .lh-extra .silver .center .tc}
+New meal plans are sent weekly. Users can customise their plans, including swapping meals for their saved favourites.
+
+<div class="cf mh4-ns mb4-ns mt0 dt">
+  <div class="mb4-ns mt0 pv5-l pv4 pl6-l pr5-l ph4 lh-solid w-50-ns dtc-ns v-mid-ns">
+    <img src="{{ site.baseurl }}/assets/what2cook_image3.png">
+  </div>
+
+  <div class="mb4-ns mt0 pv5-l pv4-m pb4 pt0 pr6-ns pl4-ns ph4 lh-solid w-50-ns dtc-ns v-mid-ns">
+    <p class="f5-l f6 lh-extra silver">Shopping lists are automatically generated using the ingredients in this weeks’ recipes, and can be further customised.</p>
+  </div>
+</div>
+
 
 {: .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid .mw7 .center }
 ![Image]({{ site.baseurl }}/assets/what2cook_image4.png){: .center .db }
