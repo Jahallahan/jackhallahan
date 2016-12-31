@@ -22,21 +22,21 @@ Vision6 is a popular email marketing product for small and medium businesses in 
 First I designed a new responsive layout and navigation, building interactive prototypes and testing key journeys with users. I designed a new look-and-feel for the interface, working with the engineers to put together a UI component library.
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .bg-vision6-navyblue .lh-solid}
-![Image]({{ site.baseurl }}/assets/vision6_image1.png){: .center .db}
+![Email building interface in Vision6]({{ site.baseurl }}/assets/vision6_image1.png){: .center .db}
 
 <p class="ph4-ns mb4-ns">
-<video autoplay loop muted>
-  <source src="{{ site.baseurl }}/assets/vision6_video1.mp4" type="video/mp4">
+<video autoplay loop muted >
+  <source src="{{ site.baseurl }}/assets/vision6_video1.mp4" type="video/mp4" alt="Mobile view of report">
 Your browser does not support the video tag.
 </video>
 </p>
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .bg-vision6-navyblue .lh-solid}
-![Image]({{ site.baseurl }}/assets/vision6_image2.png){: .center .db}
+![Dashboard]({{ site.baseurl }}/assets/vision6_image2.png){: .center .db}
 
 <p class="ph4-ns mb4-ns">
 <video autoplay loop muted>
-  <source src="{{ site.baseurl }}/assets/vision6_video2.mp4" type="video/mp4">
+  <source src="{{ site.baseurl }}/assets/vision6_video2.mp4" type="video/mp4" alt="Sample of UI Component Library">
 Your browser does not support the video tag.
 </video>
 </p>

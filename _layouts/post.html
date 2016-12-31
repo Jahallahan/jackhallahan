@@ -40,6 +40,18 @@ layout: default
 
 </article>
 
-<section class="bg-dark-gray ph5-l ph4 pv6-l pv4 bb b--white-10">
-  <p class="mw7 center f6"><a class="link silver dim" href="{{ site.baseurl }}/">⟵ Back</a></p>
+<div class="bg-dark-gray ph5-l ph4 pv6-l pv4 bb b--white-10">
+<div class="mw7 center f6 cf">
+<section class="w-50 fl">
+  <p><a class="link silver dim" href="{{ site.baseurl }}/">⟵ Back</a></p>
+
+
 </section>
+
+<div class="w-50 fl tr">
+{% if page.previous.url %}
+  <p><a class="link silver dim" href="{{page.previous.url}}">Next Project: {{page.previous.title}} ⟶</a><p>
+{% endif %}
+</div>
+</div>
+</div>

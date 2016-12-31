@@ -22,28 +22,28 @@ I was the lead web designer, working directly with the Gourmet Garden marketing 
 The site is fully internationalised and allows the company to easily add new product lines and languages. Gourmet Garden was sold to McCormick for $150 million in 2016.
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid}
-![Image]({{ site.baseurl }}/assets/gourmetgarden_image1.png){: .center .db}
+![Gourmet Garden home page]({{ site.baseurl }}/assets/gourmetgarden_image1.png){: .center .db}
 
 <div class="bg-gourmetgarden-tan cf mh4-ns mb4-ns mt0">
   <div class="mb4-ns mt0 pv5-l pv4 pl6-l pr5-l ph4 lh-solid w-50-ns fl">
-    <img src="{{ site.baseurl }}/assets/gourmetgarden_image2.png">
+    <img src="{{ site.baseurl }}/assets/gourmetgarden_image2.png" alt="Mobile view of Herb Pairing Chart">
   </div>
 
   <div class="mb4-ns mt0 pv5-l pv4 pr6-l pl5-l ph4 lh-solid w-50-ns fl">
-    <img src="{{ site.baseurl }}/assets/gourmetgarden_image3.png">
+    <img src="{{ site.baseurl }}/assets/gourmetgarden_image3.png" alt="Mobile view of product page">
   </div>
 </div>
 
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid}
-![Image]({{ site.baseurl }}/assets/gourmetgarden_image4.png){: .center .db}
+![Recipe page]({{ site.baseurl }}/assets/gourmetgarden_image4.png){: .center .db}
 
 <div class="bg-gourmetgarden-tan cf mh4-ns mb4-ns mt0">
   <div class="mb4-ns mt0 pv5-l pv4 pl6-l pr5-l ph4 lh-solid w-50-ns fl">
-    <img src="{{ site.baseurl }}/assets/gourmetgarden_image5.png">
+    <img src="{{ site.baseurl }}/assets/gourmetgarden_image5.png" alt="Mobile view of product page scrolled down">
   </div>
 
   <div class="mb4-ns mt0 pv5-l pv4 pr6-l pl5-l ph4 lh-solid w-50-ns fl">
-    <img src="{{ site.baseurl }}/assets/gourmetgarden_image6.png">
+    <img src="{{ site.baseurl }}/assets/gourmetgarden_image6.png" alt="Mobile view of herb factsheet page">
   </div>
 </div>

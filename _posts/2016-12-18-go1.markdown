@@ -16,36 +16,36 @@ metainfo3text: "<a class='silver link dim' href='https://www.go1.com/#!/' target
 GO1 transitioned from a web design agency to SaaS startup, focusing efforts on a learning management system that had been developed internally for several client projects. The platform allows administrators to create courses and track progress as team members complete their training.
 
 {: .ph4 .measure-wide .center .f4-ns .f5 .lh-extra}
-Our team was small and I was able to take on many new responsibilities in my role including user research, usability testing and product strategy. I was lucky to work closely with the founding team and improve my skills in the early stages of a startup.
+Our team was small and my role including user research, usability testing, UX/UI design and product strategy. I was lucky to work closely with the founding team and improve my skills in the early stages of a startup.
 
 {: .ph4 .pb6-l .pb4 .measure-wide .center .f4-ns .f5 .lh-extra}
 GO1 were accepted into Y Combinator in 2015 and have gone on to raise further funding to fuel their growth and refine their value proposition.
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid .bg-go1-gray}
-![Image]({{ site.baseurl }}/assets/go1_image1.png){: .center .db}
+![Course page in GO1]({{ site.baseurl }}/assets/go1_image1.png){: .center .db}
 
 <div class="bg-go1-gray cf mh4-ns mb4-ns mt0">
   <div class="mb4-ns mt0 pv5-l pv4 pl6-l pr5-l ph4 lh-solid w-50-ns fl">
-    <img src="{{ site.baseurl }}/assets/go1_image2.png">
+    <img src="{{ site.baseurl }}/assets/go1_image2.png" alt="Mobile app login screen">
   </div>
 
   <div class="mb4-ns mt0 pv5-l pv4 pr6-l pl5-l ph4 lh-solid w-50-ns fl">
-    <img src="{{ site.baseurl }}/assets/go1_image3.png">
+    <img src="{{ site.baseurl }}/assets/go1_image3.png" alt="Mobile app course page">
   </div>
 </div>
 
 <div class="bg-go1-gray cf mh4-ns mb4-ns mt0">
   <div class="mb4-ns mt0 pv5-l pv4 pl6-l pr5-l ph4 lh-solid w-50-ns fl">
-    <img src="{{ site.baseurl }}/assets/go1_image4.png">
+    <img src="{{ site.baseurl }}/assets/go1_image4.png" alt="Mobile app module page">
   </div>
 
   <div class="mb4-ns mt0 pv5-l pv4 pr6-l pl5-l ph4 lh-solid w-50-ns fl">
-    <img src="{{ site.baseurl }}/assets/go1_image5.png">
+    <img src="{{ site.baseurl }}/assets/go1_image5.png" alt="Mobile app assessment screen">
   </div>
 </div>
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid .bg-go1-gray}
-![Image]({{ site.baseurl }}/assets/go1_image6.png){: .center .db}
+![Admin creating a course]({{ site.baseurl }}/assets/go1_image6.png){: .center .db}
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid .bg-go1-gray}
-![Image]({{ site.baseurl }}/assets/go1_image7.png){: .center .db}
+![Modal shown when adding a video to a course]({{ site.baseurl }}/assets/go1_image7.png){: .center .db}

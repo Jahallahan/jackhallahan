@@ -22,17 +22,17 @@ The platform helps busy families plan, shop and cook healthy and easy meals. It 
 I was the lead designer working on this project. I approached the design mobile-first, as the experience had to transition seamlessly between a family's devices, especially mobiles and tablets.
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid}
-![Image]({{ site.baseurl }}/assets/what2cook_image1.png){: .center .db}
+![What2Cook landing page]({{ site.baseurl }}/assets/what2cook_image1.png){: .center .db}
 
 {: .mh4-ns .mb4-ns .mt0 .pt5-l pb4-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid}
-![Image]({{ site.baseurl }}/assets/what2cook_image2.png){: .center .db}
+![Weekly meal plan on laptop screen]({{ site.baseurl }}/assets/what2cook_image2.png){: .center .db}
 
 {: .ph4 .f5-l .f6 .mb4 .lh-extra .silver .center .tc}
 New meal plans are sent weekly. Users can customise their plans, including swapping meals for their saved favourites.
 
 <div class="cf mh4-ns mb4-ns mt0 dt">
   <div class="mb4-ns mt0 pv5-l pv4 pl6-l pr5-l ph4 lh-solid w-50-ns dtc-ns v-mid-ns">
-    <img src="{{ site.baseurl }}/assets/what2cook_image3.png">
+    <img src="{{ site.baseurl }}/assets/what2cook_image3.png" alt="Mobile view of shopping list">
   </div>
 
   <div class="mb4-ns mt0 pv5-l pv4-m pb4 pt0 pr6-ns pl4-ns ph4 lh-solid w-50-ns dtc-ns v-mid-ns">
@@ -42,4 +42,4 @@ New meal plans are sent weekly. Users can customise their plans, including swapp
 
 
 {: .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid .mw7 .center }
-![Image]({{ site.baseurl }}/assets/what2cook_image4.png){: .center .db }
+![Tablet view of recipe]({{ site.baseurl }}/assets/what2cook_image4.png){: .center .db }
