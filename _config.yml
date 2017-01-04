@@ -10,7 +10,7 @@ title: Jack Hallahan – UX Designer
 email: hello@jackhallahan.com
 description: > # this means to ignore newlines until "baseurl:"
   The personal portfolio of Jack Hallahan, UX/UI and product designer.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://jackhallahan.com" # the base hostname & protocol for your site
 twitter_url: https://twitter.com/jahallahan
 dribbble_url:  https://dribbble.com/jahallahan
