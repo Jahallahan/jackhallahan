@@ -5,52 +5,44 @@ layout: default
 
   {% if page.headerimage %}
 
-  <header class="post-header pv6-l pv4 ph6-l ph5-m ph4 cover white bg-center" style="background-image: url({{ site.baseurl }}/assets/{{ page.headerimage }})">
-    <h1 class="f1-ns f2">{{ page.title }}</h1>
-    <h4 class="georgia normal f4-ns f5">{{ page.teaser }}</h2>
+  <header class="post-header pv6-l pv4 cover white bg-center mb5" style="background-image: url({{ site.baseurl }}/assets/{{ page.headerimage }})">
+    <div class="mw8x center">
+      <div class="mh4">
+        <h1 class="f1-ns f2">{{ page.title }}</h1>
+        <h4 class="serif normal f3-ns f4 white-80">{{ page.teaser }}</h2>
+      </div>
+    </div>
   </header>
 
   {% else %}
 
-  <header class="post-header pv5-l pv4 ph6-l ph5-m ph4 cover white bg-center" style="background-color: {{ page.headercolor }}">
-    <h1 class="f1-ns f2">{{ page.title }}</h1>
-    <h4 class="georgia normal f4-ns f5 white-60">{{ page.teaser }}</h2>
+  <header class="post-header pv4 center fw5 mw8x mb4" style="color: {{ page.headercolor }}">
+    <div class="mh4">
+      <h1 class="f1-ns f2">{{ page.title }}</h1>
+      <h4 class="serif normal f3-ns f4 near-black">{{ page.teaser }}</h2>
+    </div>
   </header>
 
   {% endif %}
 
-  <section class="bg-nearer-white pv5-l pv4 ph6-l ph5-m ph4 cf">
-    <div class="fl w-third-l w-100">
-      <h3 class="f5-ns f6 normal">{{ page.metainfo1title }}</h3>
-      <h4 class="f5-ns f6 normal silver">{{ page.metainfo1text }}</h4>
-    </div>
-    <div class="fl w-third-l w-100">
-      <h3 class="f5-ns f6 normal">{{ page.metainfo2title }}</h3>
-      <h4 class="f5-ns f6 normal silver">{{ page.metainfo2text }}</h4>
-    </div>
-    <div class="fl w-third-l w-100">
-      <h3 class="f5-ns f6 normal">{{ page.metainfo3title }}</h3>
-      <h4 class="f5-ns f6 normal silver">{{ page.metainfo3text }}</h4>
-    </div>
-  </section>
 
-  <div class="pt6-l pt4">
+
     {{ content }}
-  </div>
+
 
 </article>
 
 <div class="bg-dark-gray ph5-l ph4 pv6-l pv4 bb b--white-10">
-<div class="mw7 center f6 cf">
+<div class="mw8x center f6 cf">
 <section class="w-50 fl">
-  <p><a class="link silver dim" href="{{ site.baseurl }}/">⟵ Back</a></p>
+  <p><a class="link silver dim" href="{{ site.baseurl }}/">←  Back</a></p>
 
 
 </section>
 
 <div class="w-50 fl tr">
 {% if page.previous.url %}
-  <p><a class="link silver dim" href="{{page.previous.url}}">Next Project: {{page.previous.title}} ⟶</a><p>
+  <p><a class="link silver dim" href="{{page.previous.url}}">Next Project: {{page.previous.title}}  →</a><p>
 {% endif %}
 </div>
 </div>

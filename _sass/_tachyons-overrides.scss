@@ -1,3 +1,23 @@
+
+//Fonts
+.sans-serif{
+  font-family: "franklin-gothic-urw",
+                -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               'helvetica neue', helvetica,
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif
+}
+
+.serif{
+  font-family: "leitura-news",
+              georgia,
+               times,
+               serif
+}
+
 //Header font just a bit too big
 
 @media screen and (min-width: 60em){
@@ -12,6 +32,12 @@
   background-color: #F9F9F9;
 }
 
+//An inbetween max-width
+
+.mw8x{
+  max-width:80rem;
+}
+
 
 //List of Posts Box shadow on hover
 
@@ -20,8 +46,6 @@
 }
 
 .post-list a:hover{
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-  transform: translate(0, -0.1em);
 }
 
 //Get thumbnails to show in color on hover
@@ -60,4 +84,25 @@ video{
     height: 24rem;
   }
 
+  .h7-ns{
+    height: 32rem;
+  }
+
+}
+
+
+//better underlines - white background
+
+.better-underline{
+    transition: box-shadow 0.2s ease, text-shadow 0s 0.2s;
+}
+
+a:hover .better-underline, a.better-underline:hover{
+  box-shadow: inset 0 -1px 0 0;
+  text-shadow:
+    -2px -2px white,
+    -2px 2px white,
+    2px -2px white,
+    2px 2px white;
+  transition: box-shadow 0.2s ease, text-shadow 0s 0s;
 }

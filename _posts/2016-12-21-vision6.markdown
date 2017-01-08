@@ -4,22 +4,42 @@ title:  "Vision6"
 date:   2016-12-21 14:00:45 +0000
 thumbnail: "vision6_thumbnail.png"
 teaser: "Get more from your email marketing"
+featured: true
 headercolor: "#E64E24"
-metainfo1title: "Platform"
-metainfo1text: "Responsive web app"
-metainfo2title: "Role"
-metainfo2text: "Product Designer"
-metainfo3title: "Website"
-metainfo3text: "<a class='silver link dim' href='http://www.vision6.com.au/' target='_blank' alt='Vision6 Website'>vision6.com.au</a>"
+metainfo:
+  - heading: "Platform"
+    text: "Responsive web app"
+  - heading: "Role"
+    text: "Product Designer - UX and UI"
+  - heading: "Website"
+    text: "<a class='near-black link better-underline' href='http://www.vision6.com.au/' target='_blank' alt='Vision6 Website'>vision6.com.au</a>"
 ---
-{: .ph4 .measure-wide .center .f4-ns .f5 .lh-extra}
-In 2015, I joined Vision6 as a product designer and led a project to completely redesign the platform’s user interface.
+<div class="cf mw8x center mb6">
+  <div class="mh4">
+    <div class="w-70-l fl f4-ns f5 lh-extra">
+      <div class="measure-wide">
+        <p class="mt0">
+        In 2015, I joined Vision6 as a product designer and led a project to completely redesign the platform’s user interface.
+        </p>
 
-{: .ph4 .measure-wide .center .f4-ns .f5 .lh-extra}
-Vision6 is a popular email marketing product for small and medium businesses in Australia. The new UI needed to support the company in its plans for international growth.
+        <p>
+        Vision6 is a popular email marketing product for small and medium businesses in Australia. The new UI needed to support the company in its plans for international growth.
+        </p>
 
-{: .ph4 .pb6-l .pb4 .measure-wide .center .f4-ns .f5 .lh-extra}
-First I designed a new responsive layout and navigation, building interactive prototypes and testing key journeys with users. I designed a new look-and-feel for the interface, working with the engineers to put together a UI component library.
+        <p>
+        First I designed a new responsive layout and navigation, building interactive prototypes and testing key journeys with users. I designed a new look-and-feel for the interface, working with the engineers to put together a UI component library.
+        </p>
+      </div>
+    </div>
+
+    <div class="w30-l fl pl4-l f5-ns f6 lh-copy">
+    {% for metainfo in page.metainfo %}
+      <p class="mt0"><span class="fw5">{{ metainfo.heading }}</span><br />
+      {{ metainfo.text }}</p>
+    {% endfor %}
+    </div>
+  </div>
+</div>
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .bg-vision6-navyblue .lh-solid}
 ![Email building interface in Vision6]({{ site.baseurl }}/assets/vision6_image1.png){: .center .db}

@@ -3,29 +3,31 @@ layout: default
 ---
 
 
-  <div class="pv6-l pv5 ph6-l ph5-m ph4">
-    <h2 class="f1x-l f2-m f3 mw7 center">Jack Hallahan is a designer living in London. He specialises in digital product design, UX and UI.</h2>
-    <p class="mw7 f4-l f5 center">Contact — <a class="near-black dim" href="mailto:{{ site.email }}" alt="Send me an email">email</a>, <a class="near-black dim" href="{{ site.twitter_url }}" alt="View my Twitter profile">twitter</a>, <a class="near-black dim" href="{{ site.dribbble_url }}" alt="View my Dribbble profile">dribbble</a><p>
+  <div class="pv6-l mb5-l pv5 ph6-l ph5-m ph4">
+    <h2 class="f1-l f2-m f3 mw7 center serif">Jack Hallahan is a designer living in London. He specialises in digital product design, UX and UI.</h2>
+    <p class="mw7 f4-l f5 center"><span class="fw5">Contact — </span><a class="link near-black better-underline" href="mailto:{{ site.email }}" alt="Send me an email">email</a>, <a class="near-black better-underline link" href="{{ site.twitter_url }}" alt="View my Twitter profile">twitter</a>, <a class="near-black better-underline link" href="{{ site.dribbble_url }}" alt="View my Dribbble profile">dribbble</a><p>
 
   </div>
-  <div class="post-list w100 bg-nearer-white pa4 pb5 cf">
+  <div class="post-list w100 bg-light-gray pv5-l pv4 ph4 pb5 cf">
+    <div class="mw8x center">
 
       {% for post in site.posts %}
+
         <div class="fl w-50-l w-100 pa3">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="db link bg-white">
-            <div class="bb b--near-white h6-ns h5 cover" style="background-image:url({{site.baseurl }}/assets/{{ post.thumbnail }})">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="link db bg-white">
+            <div class="h6-ns h5 cover" style="background-image:url({{site.baseurl }}/assets/{{ post.thumbnail }})">
 
             </div>
             <div class="ph5-ns ph4 pv4-ns pv3">
-            <h2 class="f3 fw8 near-black">
+            <h2 class="f3 near-black fw6 better-underline dib mb0">
               {{ post.title }}
             </h2>
-            <p class="georgia near-black truncate-l">{{ post.teaser }}</p>
+            <p class="near-black truncate-l pb1 f4-l">{{ post.teaser }}</p>
             </div>
 
         </a>
       </div>
 
       {% endfor %}
-
+    </div>
   </div>

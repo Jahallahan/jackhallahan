@@ -5,41 +5,65 @@ date:   2016-12-21 14:00:45 +0000
 thumbnail: "what2cook_thumbnail.png"
 teaser: "Midweek meal inspiration"
 headerimage: "what2cook_header.jpg"
-metainfo1title: "Platform"
-metainfo1text: "Mobile-first web app"
-metainfo2title: "Agency"
-metainfo2text: "GO1 Digital Agency"
-metainfo3title: "Website"
-metainfo3text: "<a class='silver link dim' href='http://www.what2cook.com.au/' target='_blank' alt='What2Cook Website'>what2cook.com.au</a>"
+metainfo:
+  - heading: "Platform"
+    text: "Mobile-first web app"
+  - heading: "Role"
+    text: "Senior Designer – G01 Digital Agency"
+  - heading: "Website"
+    text: "<a class='near-black link better-underline' href='http://www.what2cook.com.au/' target='_blank' alt='What2Cook Website'>what2cook.com.au</a>"
 ---
-{: .ph4 .measure-wide .center .f4-ns .f5 .lh-extra}
-After a successful pilot, the team at What2Cook approached GO1 to rebuild the site with more advanced functionality and a new look-and-feel.
+<div class="cf mw8x center mb6">
+  <div class="mh4">
+    <div class="w-70-l fl f4-ns f5 lh-extra">
+      <div class="measure-wide">
 
-{: .ph4 .measure-wide .center .f4-ns .f5 .lh-extra}
-The platform helps busy families plan, shop and cook healthy and easy meals. It provides tools for every stage – a weekly customisable meal plan, interactive shopping lists and easy-to-cook recipes.
+        <p class="mt0">
+        After a successful pilot, the team at What2Cook approached GO1 to rebuild the site with more advanced functionality and a new look-and-feel.
+        </p>
 
-{: .ph4 .pb6-l .pb4 .measure-wide .center .f4-ns .f5 .lh-extra}
-I was the lead designer working on this project. I approached the design mobile-first, as the experience had to transition seamlessly between a family's devices, especially mobiles and tablets.
+        <p>
+        The platform helps busy families plan, shop and cook healthy and easy meals. It provides tools for every stage – a weekly customisable meal plan, interactive shopping lists and easy-to-cook recipes.
+        </p>
+
+        <p>
+        I was the lead designer working on this project. I approached the design mobile-first, as the experience had to transition seamlessly between a family's devices, especially mobiles and tablets.
+        </p>
+
+      </div>
+    </div>
+    <div class="w30-l fl pl4-l f5-ns f6 lh-copy">
+    {% for metainfo in page.metainfo %}
+      <p class="mt0"><span class="fw5">{{ metainfo.heading }}</span><br />
+      {{ metainfo.text }}</p>
+    {% endfor %}
+    </div>
+  </div>
+</div>
 
 {: .mh4-ns .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid}
 ![What2Cook landing page]({{ site.baseurl }}/assets/what2cook_image1.png){: .center .db}
 
-{: .mh4-ns .mb4-ns .mt0 .pt5-l pb4-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid}
-![Weekly meal plan on laptop screen]({{ site.baseurl }}/assets/what2cook_image2.png){: .center .db}
+<div class="mh4-ns ph5-l ph4-m ph3 pv5-l pv4-m pv3 bg-light-gray mb4-ns">
+  <img src="{{ site.baseurl }}/assets/what2cook_image2.png" alt="Weekly meal plan on laptop screen">
+  <p class="ph4 f5-l f6 mt5-l mt4 lh-extra silver center tc measure">New meal plans are sent weekly. Users can customise their plans, including swapping meals for their saved favourites.</p>
+</div>
 
-{: .ph4 .f5-l .f6 .mb4 .lh-extra .silver .center .tc}
-New meal plans are sent weekly. Users can customise their plans, including swapping meals for their saved favourites.
-
-<div class="cf mh4-ns mb4-ns mt0 dt">
-  <div class="mb4-ns mt0 pv5-l pv4 pl6-l pr5-l ph4 lh-solid w-50-ns dtc-ns v-mid-ns">
-    <img src="{{ site.baseurl }}/assets/what2cook_image3.png" alt="Mobile view of shopping list">
-  </div>
-
-  <div class="mb4-ns mt0 pv5-l pv4-m pb4 pt0 pr6-ns pl4-ns ph4 lh-solid w-50-ns dtc-ns v-mid-ns">
-    <p class="f5-l f6 lh-extra silver">Shopping lists are automatically generated using the ingredients in this weeks’ recipes, and can be further customised.</p>
+<div class="mh4-ns bg-light-gray">
+  <div class="cf mb4-ns mt0 dt center">
+    <div class="mb4-ns mt0 pv5-l pv4 pl6-l pr5-l ph4 lh-solid w-50-ns dtc-ns v-mid-ns">
+      <div class="mw6 center">
+        <img src="{{ site.baseurl }}/assets/what2cook_image3.png" alt="Mobile view of shopping list">
+      </div>
+    </div>
+    <div class="mb4-ns mt0 pv5-l pv4-m pb4 pt0 ph4 lh-solid w-50-ns dtc-ns v-mid-ns">
+      <p class="f5-l f6 lh-extra silver measure">Shopping lists are automatically generated using the ingredients in this weeks’ recipes, and can be further customised.</p>
+    </div>
   </div>
 </div>
 
-
-{: .mb4-ns .mt0 .pv5-l .pv4-m .pv3 .ph5-l .ph4-m .ph3 .lh-solid .mw7 .center }
-![Tablet view of recipe]({{ site.baseurl }}/assets/what2cook_image4.png){: .center .db }
+<div class="mb4-ns mh4-ns mt0 pv5-l pv4-m pv3 ph5-l ph4-m ph3 center bg-light-gray">
+  <div class="mw7 center">
+    <img src="{{ site.baseurl }}/assets/what2cook_image4.png" alt="Tablet view of recipe">
+  </div>
+</div>
