@@ -357,5 +357,3 @@
   exports.default = VanillaModal;
   module.exports = exports['default'];
 });
-
-const modal = new VanillaModal();

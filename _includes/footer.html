@@ -1,33 +1,16 @@
 <footer class="bg-dark-gray ph5-l ph4 pv6-l pv4 silver">
   <p class="mw8x f6 center fw5">Jack Hallahan</p>
-  <p class="mw8x f6 center">Contact — <a class="silver dim" href="mailto:{{ site.email }}" alt="Send me an email">email</a>, <a class="silver dim" href="{{ site.twitter_url }}" alt="View my Twitter profile">twitter</a>, <a class="silver dim" href="{{ site.dribbble_url }}" alt="View my Dribbble profile">dribbble</a><p>
+  <p class="mw8x f6 center">Contact — <a class="silver dim" href="#form-modal" rel="modal:open" alt="Send me an email">email</a>, <a class="silver dim" href="{{ site.twitter_url }}" alt="View my Twitter profile">twitter</a>, <a class="silver dim" href="{{ site.dribbble_url }}" alt="View my Dribbble profile">dribbble</a><p>
   <p class="mw8x f6 center">London, England<p>
-  <a href="#form-modal" rel="modal:open">Send me a message</a>
-  <div id="form-modal" class="modal-hider">
-    <h3 class="fw4 f3">Send me a message</h3>
-    <form action="https://formspree.io/hello@jackhallahan.com"
-      method="POST">
-      <label class="mb2 db" for="name">Name</label>
-      <input type="text" class="input-reset ba b--light-gray pa2 mb3 w-100 f4 br1" name="name" required><br />
-      <label class="mb2 db" for="name">Email</label>
-      <input type="email" class="input-reset ba b--light-gray pa2 mb3 w-100 f4 br1" name="_replyto" required><br />
-      <label class="mb2 db" for="name">Message</label>
-      <textarea class="input-reset ba b--light-gray pa2 mb3 w-100 f4 br1" name="message"></textarea><br />
-      <input type="submit" value="Send" class="bg-near-black white w-100 input-reset pa3 bn dim pointer">
-    </form>
-
-
-
-  </div>
+  {% include contactform.html  %}
 
 </footer>
+<!-- Modal scripts-->
 <div class="modal">
-  <div class="modal-inner ph4 pt3 pb4 br2 measure w-100 bg-white">
+  <div class="modal-inner ph4 pt3 pb4 br2-ns measure w-100 bg-white">
     <a rel="modal:close" class="f3 dim silver">✕</a>
     <div class="modal-content"></div>
   </div>
 </div>
-
 <script src="/js/modal.js"></script>
-
 <script>const modalForm = new VanillaModal();</script>
