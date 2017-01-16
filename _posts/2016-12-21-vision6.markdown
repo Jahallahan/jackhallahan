@@ -4,7 +4,7 @@ title:  "Vision6"
 date:   2016-12-21 14:00:45 +0000
 thumbnail: "vision6_thumbnail.png"
 teaser: "Get more from your email marketing"
-featured: true
+color: "#E64E24"
 headercolor: "#E64E24"
 metainfo:
   - heading: "Platform"

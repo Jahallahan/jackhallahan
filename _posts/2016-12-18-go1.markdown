@@ -4,6 +4,7 @@ title:  "GO1"
 date:   2016-12-21 14:00:45 +0000
 thumbnail: "go1_thumbnail.png"
 teaser: "Train your team quickly and easily"
+color: "#26a9c9"
 headercolor: "#31B8DA"
 metainfo:
   - heading: "Platform"

@@ -5,6 +5,7 @@ date:   2016-12-21 14:00:45 +0000
 thumbnail: "what2cook_thumbnail.png"
 teaser: "Midweek meal inspiration"
 headerimage: "what2cook_header.jpg"
+color: "#f2c33a"
 metainfo:
   - heading: "Platform"
     text: "Mobile-first web app"

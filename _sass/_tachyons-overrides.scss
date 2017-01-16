@@ -18,19 +18,17 @@
                serif
 }
 
-//Header font just a bit too big
 
-@media screen and (min-width: 60em){
-  .f1x-l{
-    font-size: 2.5rem;
-  }
+//Hover style for project tiles
+
+a.post-list{
+  transition: all 0.15s ease;
 }
 
-//We need a lighter-gray!
-
-.bg-nearer-white{
-  background-color: #F9F9F9;
+a.post-list:hover{
+  filter: brightness(0.95);
 }
+
 
 //An inbetween max-width
 
@@ -39,21 +37,6 @@
 }
 
 
-//List of Posts Box shadow on hover
-
-.post-list a.link{
-  transition: all 0.2s ease-in-out;
-}
-
-.post-list a:hover{
-}
-
-//Get thumbnails to show in color on hover
-
-
-.post-list a:hover img{
-  filter:none;
-}
 
 //Extra line-height
 
@@ -84,9 +67,6 @@ video{
     height: 24rem;
   }
 
-  .h7-ns{
-    height: 32rem;
-  }
 
 }
 

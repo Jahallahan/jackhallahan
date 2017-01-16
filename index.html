@@ -3,27 +3,29 @@ layout: default
 ---
 
 
-  <div class="pv6-l mb5-l pv5 ph6-l ph5-m ph4">
-    <h2 class="f1-l f2-m f3 mw7 center serif">Jack Hallahan is a designer living in London. He specialises in digital product design, UX and UI.</h2>
-    <p class="mw7 f4-l f5 center"><span class="fw5">Contact</span> — <a class="link near-black better-underline" href="#form-modal" rel="modal:open" alt="Send me an email">email</a>, <a class="near-black better-underline link" href="{{ site.twitter_url }}" alt="View my Twitter profile">twitter</a>, <a class="near-black better-underline link" href="{{ site.dribbble_url }}" alt="View my Dribbble profile">dribbble</a><p>
+  <div class="pv6-l pv5 ph6-l ph4 bg-white mh4-ns">
+    <h2 class=" f2-ns f3 measure center serif fw3 lh-title-ns lh-copy tc">Jack Hallahan is a designer living in London.<br/>He specialises in digital product design, UX and UI.</h2>
+
 
   </div>
-  <div class="post-list w100 bg-light-gray pv5-l pv4 ph4 pb5 cf">
-    <div class="mw8x center">
+  <div class="w100 cf ph3-l ph2-m pb4-ns pt3-ns">
+    <div class="center mw9">
 
       {% for post in site.posts %}
 
-        <div class="fl w-50-l w-100 pa3">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="link db bg-white">
-            <div class="h6-ns h5 cover" style="background-image:url({{site.baseurl }}/assets/{{ post.thumbnail }})">
-
-            </div>
-            <div class="ph5-ns ph4 pv4-ns pv3">
-            <h2 class="f3 near-black fw6 better-underline dib mb0">
+        <div class="fl w-50-l w-100 pa3-l pa2-m">
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-list db white no-underline" style="background-color: {{ post.color }}" >
+            <div class="text-container ph5-ns ph4 pt4-ns pt2 cover" style="background-image:url({{site.baseurl }}/assets/{{ post.thumbnail }})">
+            <h2 class="serif f3-ns f4 fw4 mb0 pt2">
               {{ post.title }}
             </h2>
-            <p class="near-black truncate-l pb1 f4-l">{{ post.teaser }}</p>
+            <p class="truncate-l pb1 f4-l black-60 mt3-ns mt2">{{ post.teaser }}</p>
+            <div class="h6-ns h5" >
+
             </div>
+
+            </div>
+
 
         </a>
       </div>

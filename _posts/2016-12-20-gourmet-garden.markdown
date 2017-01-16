@@ -5,6 +5,7 @@ date:   2016-12-21 14:00:45 +0000
 thumbnail: "gourmetgarden_thumbnail.png"
 teaser: "Fresh herbs at your fingertips"
 headerimage: "gourmetgarden_header.jpg"
+color: "#00a27c"
 metainfo:
   - heading: "Platform"
     text: "Responsive website"
