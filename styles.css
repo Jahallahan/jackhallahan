@@ -542,3 +542,7 @@ li a:hover {
     margin: 0.5rem 0;
   }
 }
+
+.tiny{
+  font-size: 60%;
+}
